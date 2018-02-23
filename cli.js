@@ -20,7 +20,7 @@ let targetURL = "";
 
 const pomodoron = (input, opts) => {
 	if (typeof input !== "string" || !validUrl.isUri(input)) {
-		throw new Error(`Expected a URL, got ${input}`);
+		throw new Error(`Expected a URL, got "${input}"`);
 	}
 	targetURL = input;
 	opts = opts || {};
