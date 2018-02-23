@@ -11,19 +11,13 @@
 	},
 	"bin": "cli.js",
 	"engines": {
-		"node": ">=4"
+		"node": ">=6"
 	},
 	"scripts": {
 		"test": "ava"
 	},
-	"files": [
-		"cli.js"
-	],
-	"keywords": [
-		"cli-app",
-		"cli",
-		""
-	],
+	"files": ["cli.js"],
+	"keywords": ["cli-app", "cli", "pomodoro-timer"],
 	"dependencies": {
 		"meow": "^3.7.0",
 		"open": "^0.0.5",
@@ -31,7 +25,6 @@
 	},
 	"devDependencies": {
 		"ava": "^0.20.0",
-		"bluebird": "^3.5.1",
 		"pify": "^3.0.0"
 	}
 }
