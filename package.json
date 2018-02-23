@@ -1,0 +1,37 @@
+{
+	"name": "pomodoron",
+	"version": "0.0.0",
+	"description": "Pomodoro timer cli. break with open your URL",
+	"license": "MIT",
+	"repository": "elzup/pomodoron",
+	"author": {
+		"name": "elzup",
+		"email": "guild0105@gmail.com",
+		"url": "elzup.com"
+	},
+	"bin": "cli.js",
+	"engines": {
+		"node": ">=4"
+	},
+	"scripts": {
+		"test": "ava"
+	},
+	"files": [
+		"cli.js"
+	],
+	"keywords": [
+		"cli-app",
+		"cli",
+		""
+	],
+	"dependencies": {
+		"meow": "^3.7.0",
+		"open": "^0.0.5",
+		"valid-url": "^1.0.9"
+	},
+	"devDependencies": {
+		"ava": "^0.20.0",
+		"bluebird": "^3.5.1",
+		"pify": "^3.0.0"
+	}
+}
