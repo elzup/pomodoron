@@ -2,8 +2,6 @@
 
 > Pomodoro timer CLI. break with open your URL
 
-You can music breaktime.
-
 
 ## CLI
 
