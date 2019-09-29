@@ -25,12 +25,12 @@
 		"pomodoro-timer"
 	],
 	"dependencies": {
-		"meow": "^3.7.0",
-		"open": "^0.0.5",
-		"valid-url": "^1.0.9"
+		"meow": "3.7.0",
+		"open": "0.0.5",
+		"valid-url": "1.0.9"
 	},
 	"devDependencies": {
-		"ava": "^0.20.0",
-		"pify": "^3.0.0"
+		"ava": "0.20.0",
+		"pify": "3.0.0"
 	}
 }
