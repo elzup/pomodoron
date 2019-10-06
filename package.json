@@ -31,6 +31,6 @@
 	},
 	"devDependencies": {
 		"ava": "2.4.0",
-		"pify": "3.0.0"
+		"pify": "4.0.1"
 	}
 }
