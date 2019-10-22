@@ -7,7 +7,7 @@
 	"author": {
 		"name": "elzup",
 		"email": "guild0105@gmail.com",
-		"url": "elzup.com"
+		"url": "https://elzup.com"
 	},
 	"bin": "cli.js",
 	"engines": {
@@ -25,12 +25,12 @@
 		"pomodoro-timer"
 	],
 	"dependencies": {
-		"meow": "3.7.0",
-		"open": "0.0.5",
+		"meow": "5.0.0",
+		"open": "7.0.0",
 		"valid-url": "1.0.9"
 	},
 	"devDependencies": {
 		"ava": "2.4.0",
-		"pify": "3.0.0"
+		"pify": "4.0.1"
 	}
 }
