@@ -26,7 +26,7 @@
 	],
 	"dependencies": {
 		"meow": "5.0.0",
-		"open": "7.4.2",
+		"open": "8.4.0",
 		"valid-url": "1.0.9"
 	},
 	"devDependencies": {
