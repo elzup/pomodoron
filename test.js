@@ -1,6 +1,6 @@
-const test = require("ava");
-const util = require("util");
-const { execFile } = require("child_process");
+import test from "ava";
+import util from "util";
+import { execFile } from "child_process";
 
 const sleep = (msec) => new Promise((resolve) => setTimeout(resolve, msec));
 
