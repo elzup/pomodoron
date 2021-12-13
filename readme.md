@@ -2,7 +2,6 @@
 
 > Pomodoro timer CLI. break with open your URL
 
-
 ## CLI
 
 ```
@@ -13,16 +12,12 @@ $ npm install --global pomodoron
 $ pomodoron --help
 
   Usage
-    pomodoron [input]
-
-  Options
-    --foo  Lorem ipsum [Default: false]
+    pomodoron <URL>
 
   Examples
 	  $ pomodoron https://www.youtube.com/watch?v=SNfXwN5JQvg
 		You can listening favorite youtube music.
 ```
-
 
 ## License
 
