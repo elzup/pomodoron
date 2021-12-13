@@ -1,19 +1,23 @@
 #!/usr/bin/env node
 "use strict";
-const meow = require("meow");
-const open = require("open");
-const url = require("url");
-const validUrl = require("valid-url");
+import meow from "meow";
+import open from "open";
+import validUrl from "valid-url";
 
-const cli = meow(`
+const cli = meow(
+	`
 	Usage
-	  $ pomodoron [url]
+	  $ pomodoron <url>
 
 	Examples
 	  $ pomodoron https://www.youtube.com/watch?v=SNfXwN5JQvg
-`);
+`,
+	{
+		importMeta: import.meta,
+	}
+);
 
-const sleep = msec => new Promise(resolve => setTimeout(resolve, msec));
+const sleep = (msec) => new Promise((resolve) => setTimeout(resolve, msec));
 
 // HACKME:
 let targetURL = "";

@@ -3,6 +3,7 @@
 	"version": "0.1.1",
 	"description": "Pomodoro timer cli. break with open your URL",
 	"license": "MIT",
+	"type": "module",
 	"repository": "elzup/pomodoron",
 	"author": {
 		"name": "elzup",
@@ -25,11 +26,11 @@
 		"pomodoro-timer"
 	],
 	"dependencies": {
-		"meow": "5.0.0",
-		"open": "7.4.2",
+		"meow": "10.1.2",
+		"open": "8.4.0",
 		"valid-url": "1.0.9"
 	},
 	"devDependencies": {
-		"ava": "2.4.0"
+		"ava": "^3.15.0"
 	}
 }
