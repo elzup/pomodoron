@@ -31,6 +31,6 @@
 		"valid-url": "1.0.9"
 	},
 	"devDependencies": {
-		"ava": "4.1.0"
+		"ava": "4.2.0"
 	}
 }
