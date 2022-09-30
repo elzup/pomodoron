@@ -26,7 +26,7 @@
 		"pomodoro-timer"
 	],
 	"dependencies": {
-		"meow": "10.1.3",
+		"meow": "10.1.4",
 		"open": "8.4.0",
 		"valid-url": "1.0.9"
 	},
