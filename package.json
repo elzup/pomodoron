@@ -27,10 +27,10 @@
 	],
 	"dependencies": {
 		"meow": "11.0.0",
-		"open": "8.4.0",
+		"open": "8.4.2",
 		"valid-url": "1.0.9"
 	},
 	"devDependencies": {
-		"ava": "5.1.1"
+		"ava": "5.2.0"
 	}
 }
