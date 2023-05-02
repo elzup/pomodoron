@@ -1,4 +1,4 @@
-# pomodoron [![Build Status](https://travis-ci.org/elzup/pomodoron.svg?branch=master)](https://travis-ci.org/elzup/pomodoron)
+# pomodoron
 
 > Pomodoro timer CLI. break with open your URL
 
